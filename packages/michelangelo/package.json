@@ -1,0 +1,15 @@
+{
+	"name": "michelangelo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "lib/index.js",
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^12.11.2"
+	},
+	"devDependencies": {
+		"typescript": "~3.6.4"
+	}
+}

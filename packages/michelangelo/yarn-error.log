@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/tianlunwang/.nvm/versions/node/v10.15.2/bin/node /Users/tianlunwang/.nvm/versions/node/v10.15.2/bin/yarn add @types/node --dev
+
+PATH: 
+  /Users/tianlunwang/.nvm/versions/node/v10.15.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/michelangelo-core: Not found
+      at Request.params.callback [as _callback] (/Users/tianlunwang/.nvm/versions/node/v10.15.2/lib/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/Users/tianlunwang/.nvm/versions/node/v10.15.2/lib/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/Users/tianlunwang/.nvm/versions/node/v10.15.2/lib/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/Users/tianlunwang/.nvm/versions/node/v10.15.2/lib/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "michelangelo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "michelangelo-core": "^1.0.0",
+      "@types/node": "^8.0.28"
+    },
+    "devDependencies": {
+      "typescript": "~3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

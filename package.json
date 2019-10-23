@@ -1,7 +1,17 @@
 {
-  "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "clean": "lerna clean y",
+    "build": "tsc -b packages/michelangelo packages/michelangelo-core"
+  },
   "devDependencies": {
-    "lerna": "^3.18.2"
-  }
+    "lerna": "^3.18.2",
+    "@types/node": "^12.11.2",
+    "typescript": "~3.6.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

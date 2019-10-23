@@ -1,0 +1,16 @@
+{
+  "name": "michelangelo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "michelangelo-core": "^1.0.0",
+    "@types/node": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
