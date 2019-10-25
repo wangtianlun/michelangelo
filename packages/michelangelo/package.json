@@ -1,15 +1,31 @@
 {
-	"name": "michelangelo",
-	"version": "1.0.0",
-	"description": "",
-	"main": "lib/index.js",
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"@types/node": "^12.11.2"
-	},
-	"devDependencies": {
-		"typescript": "~3.6.4"
-	}
+ "name": "michelangelo",
+ "version": "1.0.0",
+ "description": "",
+ "main": "lib/index.js",
+ "bin": {
+  "mic": "./bin/michelangelo.js"
+ },
+ "scripts": {
+  "dev": "rimraf lib && tsc -w"
+ },
+ "files": [
+  "src",
+  "lib"
+ ],
+ "keywords": [],
+ "author": "",
+ "license": "MIT",
+ "dependencies": {
+  "@types/node": "^12.11.2",
+  "@types/react": "~16.9.1",
+  "@types/react-router-dom": "~4.3.4",
+  "@types/yargs-parser": "13.1.0",
+  "michelangelo-build-dev": "1.0.0",
+  "yargs-parser": "13.1.1"
+ },
+ "devDependencies": {
+  "rimraf": "^2.6.2",
+  "typescript": "~3.6.4"
+ }
 }

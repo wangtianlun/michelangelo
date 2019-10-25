@@ -2,13 +2,15 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "dev": "lerna run dev",
     "publish": "lerna publish",
     "clean": "lerna clean y",
     "build": "tsc -b packages/michelangelo packages/michelangelo-core"
   },
   "devDependencies": {
-    "lerna": "^3.18.2",
     "@types/node": "^12.11.2",
+    "lerna": "^3.18.2",
+    "rimraf": "^3.0.0",
     "typescript": "~3.6.4"
   },
   "workspaces": [

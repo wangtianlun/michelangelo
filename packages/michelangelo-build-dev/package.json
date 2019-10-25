@@ -1,5 +1,5 @@
 {
-  "name": "michelangelo-core",
+  "name": "michelangelo-build-dev",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -10,10 +10,11 @@
     "dev": "tsc -w"
   },
   "dependencies": {
-    "michelangelo": "^1.0.0",
-		"@types/node": "^12.11.2"
+    "@types/node": "^12.11.2",
+    "debug": "^4.1.1",
+    "michelangelo-core": "^1.0.0"
   },
   "devDependencies": {
-		"typescript": "~3.6.4"
+    "typescript": "~3.6.4"
   }
 }

@@ -1,16 +1,14 @@
 {
-  "name": "michelangelo-core",
+  "name": "michelangelo-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
   "keywords": [],
   "author": "",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "rimraf lib && tsc -w"
   },
   "dependencies": {
-    "michelangelo": "^1.0.0",
 		"@types/node": "^12.11.2"
   },
   "devDependencies": {

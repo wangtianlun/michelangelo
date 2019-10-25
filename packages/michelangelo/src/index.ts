@@ -1,3 +1,3 @@
 export function bar() {
-  console.log(234);
+  console.log(2341);
 }
