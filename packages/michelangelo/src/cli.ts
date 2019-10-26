@@ -11,9 +11,10 @@ switch (script) {
     break;
 
   default: {
+    const Service = require('michelangelo-build-dev/lib/index').default;
+    new Service(buildDevOpts(args));
     break;
   }
 }
 
-const Service = require('michelangelo-build-dev/lib/index').default;
-new Service(buildDevOpts(args));
+
