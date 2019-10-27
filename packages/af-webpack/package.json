@@ -1,0 +1,24 @@
+{
+  "name": "af-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+   "dev": "rimraf lib && tsc -w"
+  },
+  "files": [
+   "src",
+   "lib"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+   "@types/node": "^12.11.2"
+  },
+  "devDependencies": {
+   "rimraf": "^2.6.2",
+   "typescript": "~3.6.4"
+  }
+ }
+ 
