@@ -27,6 +27,13 @@ export function getConfigByConfigFile(configFile: string, opts: IOpts = {}) {
   ];
 }
 
+export function getConfigPaths(cwd: string): string[] {
+  return [
+    join(cwd, 'config/'),
+    join(cwd, '.michelangelorc.js')
+  ];
+}
+
 export default function(opts: IOpts = {}) {
   const { cwd, defaultConfig } = opts;
   const absConfigFile = getConfigFile(cwd);

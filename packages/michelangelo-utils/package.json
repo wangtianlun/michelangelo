@@ -9,9 +9,10 @@
     "dev": "rimraf lib && tsc -w"
   },
   "dependencies": {
-		"@types/node": "^12.11.2"
+    "@types/node": "^12.11.2",
+    "slash2": "^2.0.0"
   },
   "devDependencies": {
-		"typescript": "~3.6.4"
+    "typescript": "~3.6.4"
   }
 }

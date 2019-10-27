@@ -13,7 +13,8 @@
     "@types/node": "^12.11.2",
     "debug": "^4.1.1",
     "lodash": "^4.17.15",
-    "michelangelo-core": "^1.0.0"
+    "michelangelo-core": "^1.0.0",
+    "michelangelo-utils": "^1.0.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.144",

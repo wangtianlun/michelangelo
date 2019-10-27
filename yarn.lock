@@ -4094,6 +4094,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsignal-exit%2Fdownload%2Fsignal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+slash2@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/slash2/download/slash2-2.0.0.tgz#f4e0a11708b8545b912695981cf7096f52c63487"
+  integrity sha1-9OChFwi4VFuRJpWYHPcJb1LGNIc=
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"

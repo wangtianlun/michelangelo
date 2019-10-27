@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "dev": "lerna run dev",
+    "dev": "lerna run dev --parallel",
     "publish": "lerna publish",
     "clean": "lerna clean y",
     "build": "tsc -b packages/michelangelo packages/michelangelo-core"
