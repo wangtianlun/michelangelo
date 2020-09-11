@@ -22,7 +22,7 @@
   "@types/react-router-dom": "~4.3.4",
   "@types/yargs-parser": "13.1.0",
   "michelangelo-build-dev": "1.0.0",
-  "yargs-parser": "13.1.1"
+  "yargs-parser": "20.0.0"
  },
  "devDependencies": {
   "rimraf": "^2.6.2",
